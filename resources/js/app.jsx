@@ -1,3 +1,5 @@
 import { createInertiaApp } from '@inertiajs/react'
 
-createInertiaApp();
+createInertiaApp({
+    progress: false,
+});

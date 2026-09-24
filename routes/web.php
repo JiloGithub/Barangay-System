@@ -12,8 +12,16 @@ Route::get('/', function () {
 
 Route::middleware('auth')->group(function () {
 
-    Route::get('/home', function () {
-        return Inertia::render('Home');
+    Route::get('/dashboard', function () {
+        return Inertia::render('Dashboard');
+    });
+
+    Route::get('/residents', function () {
+        return Inertia::render('Resident');
+    });
+
+    Route::get('/example', function () {
+        return Inertia::render('Example');
     });
 
 
