@@ -1,4 +1,4 @@
-import { Head, Link } from '@inertiajs/react'
+import { Head, Link ,usePage} from '@inertiajs/react'
 import {
     Users,
     FileText,
@@ -8,7 +8,8 @@ import {
     Shield,
 } from 'lucide-react'
 
-export default function Welcome({ auth, laravelVersion, phpVersion }) {
+export default function Welcome({ laravelVersion, phpVersion }) {
+    const { auth } = usePage().props
     const features = [
         {
             title: 'Resident Records',

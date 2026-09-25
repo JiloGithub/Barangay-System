@@ -56,7 +56,7 @@ export default function Register() {
                                     value={data.name}
                                     onChange={(e) => setData('name', e.target.value)}
                                     autoComplete="name"
-                                    required
+                                    
                                     className="w-full rounded-lg border border-black/20 bg-white px-4 py-2.5 text-sm text-black shadow-sm transition-colors duration-200 placeholder:text-black/40 focus:border-black focus:outline-none focus:ring-2 focus:ring-black/10"
                                     placeholder="Juan Dela Cruz"
                                 />
@@ -82,7 +82,7 @@ export default function Register() {
                                     value={data.email}
                                     onChange={(e) => setData('email', e.target.value)}
                                     autoComplete="username"
-                                    required
+                                    
                                     className="w-full rounded-lg border border-black/20 bg-white px-4 py-2.5 text-sm text-black shadow-sm transition-colors duration-200 placeholder:text-black/40 focus:border-black focus:outline-none focus:ring-2 focus:ring-black/10"
                                     placeholder="juan@barangay.gov.ph"
                                 />
@@ -108,7 +108,7 @@ export default function Register() {
                                     value={data.password}
                                     onChange={(e) => setData('password', e.target.value)}
                                     autoComplete="new-password"
-                                    required
+                                    
                                     className="w-full rounded-lg border border-black/20 bg-white px-4 py-2.5 text-sm text-black shadow-sm transition-colors duration-200 placeholder:text-black/40 focus:border-black focus:outline-none focus:ring-2 focus:ring-black/10"
                                     placeholder="••••••••"
                                 />
@@ -136,7 +136,7 @@ export default function Register() {
                                         setData('password_confirmation', e.target.value)
                                     }
                                     autoComplete="new-password"
-                                    required
+                                    
                                     className="w-full rounded-lg border border-black/20 bg-white px-4 py-2.5 text-sm text-black shadow-sm transition-colors duration-200 placeholder:text-black/40 focus:border-black focus:outline-none focus:ring-2 focus:ring-black/10"
                                     placeholder="••••••••"
                                 />
